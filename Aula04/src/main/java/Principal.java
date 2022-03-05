@@ -1,7 +1,6 @@
 public class Principal {
     public static void main(String[] args) {
-        Conta c = new Conta();
-        c.depositar(500);
-        System.out.println(c.devolveSaldo());
+        Pessoa p = new Pessoa();
+        System.out.println(p.getNome());
     }
 }

@@ -7,8 +7,14 @@ public class Conta {
     void depositar(double quantia){
         saldo += quantia;
     }
-
     public double devolveSaldo(){
         return saldo;
+    }
+    public double getSaldo(){
+        return saldo;
+    }
+    public void setSaldo(double saldo){
+
+        this.saldo = saldo;
     }
 }
