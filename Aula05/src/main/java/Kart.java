@@ -1,7 +1,11 @@
 public class Kart {
     String nome;
-    Piloto p = new Piloto();
-    Motor m = new Motor();
+    Piloto p;
+    Motor m;
+
+    public Kart(){
+        m = new Motor();
+    }
 
     public void pular(){
         System.out.println("Pulei");

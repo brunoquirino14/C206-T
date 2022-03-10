@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         Kart k = new Kart();
+        Kart k2 = new Kart();
 
 
         k.nome = "Relampago Marquinhos";
