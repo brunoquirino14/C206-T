@@ -6,6 +6,7 @@ public class Principal {
 
 
         k.nome = "Relampago Marquinhos";
+        k2.nome = "Tom Matte";
         k.fazerDrift();
         k.soltarTurbo();
         Scanner ler = new Scanner(System.in);
